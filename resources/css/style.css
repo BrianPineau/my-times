@@ -59,8 +59,10 @@ nav span {
 .column {
   display: flex;
   flex-direction: column;
+  align-content: space-between;
   border: 1px solid black;
 }
+
 
 /* large column */
 
@@ -92,9 +94,25 @@ nav span {
   border: 2px solid black;
 }
 
+.fbifindsstory {
+  border: 2px solid black;
+}
+
+.catsincontrol {
+  border: 2px solid black;
+}
+
+.catsincontrol span {
+  border: 1px solid black;
+}
+
 /* small column */
 
 .column .small {
   width: 240px;
-  border: 2px solid black;
+  border: 1px solid black;
+}
+
+.lastcolumnstory {
+  border: 1px solid black;
 }
