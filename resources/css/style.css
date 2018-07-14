@@ -63,9 +63,13 @@ nav span {
   font-family: georgia;
 }
 
+.guess {
+}
+
 .column {
   display: flex;
   flex-direction: column;
+  margin-right: 32px;
 }
 
 
@@ -149,6 +153,9 @@ nav span {
 
 .column .small {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   height: 240px;
 }
 
